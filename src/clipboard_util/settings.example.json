@@ -1,0 +1,5 @@
+{
+    "hotkey": "ctrl+w",
+    "commands": [("xsel", "-i", "-b"), "xclip -i -selection clipboard"],
+    "file": {"save_path": "~/.tau-clipboard.txt", "mode": "fallback:overwrite"}
+}
